@@ -1,0 +1,5 @@
+SELECT `Nome`,`Cod_Pro`FROM `produtos` WHERE 1
+SELECT * FROM `sub_grupos` WHERE 1
+SELECT `Cod_Pro`,`Nome`,`Valor_Uni` FROM `produtos` WHERE `Cod_Pro`>10
+SELECT `Cod_Sub`, `Nome` FROM `sub_grupos` WHERE `Cod_Gpo` = 1
+SELECT * FROM `produtos` WHERE `Qtde`>=15

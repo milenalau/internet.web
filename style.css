@@ -1,0 +1,23 @@
+.cabecalho{
+text-align: center;
+}
+.conteudo{
+background-image:url(wpp.jpg);
+
+}
+.rodape{
+
+}
+.rodape2{
+background-image:url(wpp.jpg);
+
+}
+.coluna{
+  float: left;
+  width: 33.33%;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
